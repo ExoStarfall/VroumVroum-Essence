@@ -1,0 +1,258 @@
+/* PC MASTER RACE */
+@media (min-width: 1080px) {
+  html {
+    font-size: 62.5%;
+    color: black;
+    
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  
+  }
+  body {
+    height: 100vh;
+    width: 100%;
+    background: rgb(219, 174, 238);
+    background: radial-gradient(
+      circle,
+      rgba(219, 174, 238, 1) 0%,
+      rgba(236, 225, 134, 1) 51%,
+      rgba(148, 187, 233, 1) 100%
+    );
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 5rem;
+  }
+  header > h1 {
+    background: -webkit-linear-gradient(rgb(73, 73, 73), rgb(148, 187, 223, 1));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: oblique;
+    text-transform: capitalize;
+  }
+  header > h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-top: 5rem;
+    color: white;
+  }
+  .donn {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+    justify-content: space-between;
+    color: white;
+  }
+  table{border-collapse: collapse;}
+  th{border:2px solid white; text-align: center;}
+  td{border: 2px solid white;}
+  .btn {
+    height: 4.5rem;
+    width: 10rem;
+    border-radius: 25px;
+    margin-top: 3rem;
+    font-size: 20px;
+    background-color: rgba(148, 187, 233, 1);
+    text-align: center;
+  }
+
+  form {
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+    margin-top: 6rem;
+  }
+  #volume-plein {
+    height: 5rem;
+    width: auto;
+    border-radius: 50px;
+  }
+  label {
+    margin-top: 5px;
+    color: white;
+    padding-bottom: 3px;
+  }
+  #prix-au-litre {
+    height: 5rem;
+    width: auto;
+    border-radius: 50px;
+  }
+  #kilometres-parcourus {
+    height: 5rem;
+    width: auto;
+    border-radius: 50px;
+  }
+  .formulaire > form > label:nth-of-type(2) {
+    text-align: center;
+  }
+  .formulaire > form > label:nth-of-type(3) {
+    text-align: center;
+  }
+  button {
+    height: 4.5rem;
+    width: 10rem;
+    border-radius: 25px;
+    margin-top: 3rem;
+    font-size: 20px;
+    background-color: rgba(148, 187, 233, 1);
+  }
+  input[type=number] {
+  width: 86%;
+  padding: 7px 7px;
+  border: black solid 2px;
+  height: 40px;
+  background: white;
+  /*border-radius: 5px;*/ 
+}
+form{ 
+  width: 40rem;
+  height: 50rem;
+  border-left: 10px solid #FFF;
+  border-right: 10px solid #FFF;
+  padding: 10px 0;
+  margin: 50px auto;
+
+  background-image: -webkit-linear-gradient(left, #FFF 50%, #FFF 50%), -webkit-linear-gradient(left, #FFF 50%, #FFF 50%);
+  background-image: -moz-linear-gradient(left, #FFF 50%, #FFF 50%), -moz-linear-gradient(left, #FFF 50%, #FFF 50%);
+  background-image: -o-linear-gradient(left, #FFF 50%, #FFF 50%), -o-linear-gradient(left, #FFF 50%, #FFF 50%);
+  background-image: linear-gradient(to right, #FFF 50%, #FFF 50%), linear-gradient(to right, #FFF 50%, #FFF 50%);
+  background-position: 0 0, 0 100% ;
+  background-repeat: no-repeat;
+  background-size: 100% 10px;}
+}
+
+/* Mobile peasants */
+@media (max-width: 767px) {
+  html {
+    font-size: 62.5%;
+    color: black;
+    height: 100vh;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    max-height: 100vh;
+    width: 100vw;
+    background: rgb(219, 174, 238);
+    background: radial-gradient(
+      circle,
+      rgba(219, 174, 238, 1) 0%,
+      rgba(236, 225, 134, 1) 51%,
+      rgba(148, 187, 233, 1) 100%
+    );
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
+  header > h1 {
+    background: -webkit-linear-gradient(rgb(73, 73, 73), rgb(15, 134, 155));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: oblique;
+    text-transform: capitalize;
+  }
+  header > h2 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    margin-top: 3rem;
+    color: white;
+  }
+  .donn {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+    justify-content: space-evenly;
+    color: white;
+    
+  }
+  table{border-collapse: collapse;}
+  th{border:2px solid white}
+  td{border: 2px solid white;}
+  .btn {
+    height: 4.5rem;
+    width: 10rem;
+    border-radius: 25px;
+    margin-top: 3rem;
+    font-size: 20px;
+    background-color: rgba(148, 187, 233, 1);
+    text-align: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3rem;
+    margin-top: 6rem;
+  }
+  #volume-plein {
+    height: 5rem;
+    width: auto;
+    border-radius: 50px;
+  }
+  label {
+    margin-top: 5px;
+    color: white;
+    padding-bottom: 3px;
+  }
+  .formulaire > form > label:nth-of-type(2) {
+    text-align: center;
+  }
+  .formulaire > form > label:nth-of-type(3) {
+    text-align: center;
+  }
+  #prix-au-litre {
+    height: 5rem;
+    width: auto;
+    border-radius: 50px;
+  }
+  #kilometres-parcourus {
+    height: 5rem;
+    width: auto;
+    border-radius: 50px;
+  }
+  button {
+    height: 4.5rem;
+    width: 10rem;
+    border-radius: 25px;
+    margin-top: 3rem;
+    font-size: 20px;
+    background-color: rgba(148, 187, 233, 1);
+  }
+  form{  width: 30rem;
+    height: 50rem;
+    border-left: 10px solid #FFF;
+    border-right: 10px solid #FFF;
+    padding: 3rem 0;
+    margin: 20px auto;
+  
+    background-image: -webkit-linear-gradient(left, #FFF 50%, #FFF 50%), -webkit-linear-gradient(left, #FFF 50%, #FFF 50%);
+    background-image: -moz-linear-gradient(left, #FFF 50%, #FFF 50%), -moz-linear-gradient(left, #FFF 50%, #FFF 50%);
+    background-image: -o-linear-gradient(left, #FFF 50%, #FFF 50%), -o-linear-gradient(left, #FFF 50%, #FFF 50%);
+    background-image: linear-gradient(to right, #FFF 50%, #FFF 50%), linear-gradient(to right, #FFF 50%, #FFF 50%);
+    background-position: 0 0, 0 100% ;
+    background-repeat: no-repeat;
+    background-size: 100% 10px;
+
+  }
+}
